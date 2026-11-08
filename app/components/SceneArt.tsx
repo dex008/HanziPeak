@@ -1062,6 +1062,151 @@ const VARIANTS: Record<string, ReactNode> = {
       <Bubble x={60} y={150} text="超市" />
     </g>
   ),
+  tourist: (
+    <g><rect width="400" height="220" fill="#dcebf4" /><rect y="150" width="400" height="70" fill="#cfe0c3" />
+      <rect x="250" y="80" width="60" height="44" rx="4" fill={INK} /><circle cx="280" cy="102" r="14" fill="#8fb9c9" />
+      <Person x={140} y={200} shirt={RED} /><Bubble x={60} y={30} text="游客" /></g>
+  ),
+  business: (
+    <g><Room wall="#eef0dd" /><rect x="220" y="120" width="150" height="12" rx="6" fill="#d8b98a" stroke={INK} strokeWidth="2" />
+      <path d="M255 108 l10 -20 l10 20 Z" fill={RED} /><Person x={120} y={196} shirt={INK} /><Bubble x={60} y={30} text="商人" /></g>
+  ),
+  sea: (
+    <g><rect width="400" height="220" fill="#dcebf4" /><rect y="120" width="400" height="100" fill="#8fb9c9" />
+      <circle cx="320" cy="56" r="26" fill={GOLD} /><Person x={150} y={200} shirt={RED} /><Bubble x={60} y={30} text="大海" /></g>
+  ),
+  intern: (
+    <g><Room wall="#eef4f2" /><rect x="40" y="120" width="150" height="12" rx="6" fill="#d8b98a" stroke={INK} strokeWidth="2" />
+      <rect x="70" y="80" width="60" height="30" rx="3" fill="#fff8e8" stroke={INK} strokeWidth="2" />
+      <Person x={280} y={196} shirt={JADE} /><Bubble x={220} y={40} text="实习" /></g>
+  ),
+  snow: (
+    <g><rect width="400" height="220" fill="#dcebf4" /><rect y="160" width="400" height="60" fill="#fff8e8" />
+      <circle cx="90" cy="50" r="5" fill="#fff" /><circle cx="180" cy="80" r="5" fill="#fff" /><circle cx="300" cy="46" r="5" fill="#fff" />
+      <Person x={220} y={200} shirt={RED} /><Bubble x={60} y={30} text="下雪" /></g>
+  ),
+  gym: (
+    <g><Room wall="#eef0dd" /><rect x="120" y="140" width="120" height="12" rx="6" fill={INK} />
+      <circle cx="120" cy="146" r="18" fill={INK} /><circle cx="240" cy="146" r="18" fill={INK} />
+      <Person x={300} y={196} shirt={RED} /><Bubble x={60} y={40} text="体育馆" /></g>
+  ),
+  zoo: (
+    <g><rect width="400" height="220" fill="#dcebf4" /><rect y="150" width="400" height="70" fill="#cfe0c3" />
+      <path d="M40 110 h300 M70 110 v40 M130 110 v40 M190 110 v40 M250 110 v40 M310 110 v40" stroke={INK} strokeWidth="3" />
+      <Person x={320} y={200} shirt={GOLD} /><Bubble x={60} y={30} text="动物园" /></g>
+  ),
+  chopsticks: (
+    <g><Room wall="#f3e6cf" /><rect x="80" y="130" width="160" height="12" rx="6" fill="#d8b98a" stroke={INK} strokeWidth="2" />
+      <path d="M100 130 a20 16 0 0 0 40 0 Z" fill="#fff8e8" stroke={INK} strokeWidth="2" />
+      <path d="M150 118 l40 -8 M150 124 l40 -2" stroke={INK} strokeWidth="3" />
+      <Person x={300} y={196} shirt={RED} /><Bubble x={200} y={40} text="筷子" /></g>
+  ),
+  dumplings: (
+    <g><Room wall="#eef0dd" /><ellipse cx="160" cy="140" rx="60" ry="14" fill="#fff8e8" stroke={INK} strokeWidth="2" />
+      <circle cx="140" cy="132" r="10" fill={GOLD} /><circle cx="170" cy="134" r="10" fill={GOLD} /><circle cx="200" cy="132" r="10" fill={GOLD} />
+      <Person x={310} y={196} shirt={JADE} /><Bubble x={200} y={30} text="饺子" /></g>
+  ),
+  toast: (
+    <g><Room wall="#f6e3d8" /><path d="M120 120 l14 -30 l14 30 Z" fill="#fff8e8" stroke={INK} strokeWidth="2" />
+      <path d="M240 120 l14 -30 l14 30 Z" fill="#fff8e8" stroke={INK} strokeWidth="2" />
+      <Person x={200} y={196} shirt={RED} /><Bubble x={60} y={30} text="干杯" /></g>
+  ),
+  climb: (
+    <g><rect width="400" height="220" fill="#dcebf4" /><path d="M60 190 L160 60 L260 190 Z" fill="#7d9c88" />
+      <rect y="190" width="400" height="30" fill="#cfe0c3" /><Person x={170} y={200} shirt={RED} /><Bubble x={40} y={30} text="爬山" /></g>
+  ),
+  medicine: (
+    <g><Room wall="#eef4f2" /><rect x="80" y="90" width="90" height="70" rx="6" fill="#fff8e8" stroke={INK} strokeWidth="2" />
+      <path d="M125 100 v50 M100 125 h50" stroke={RED} strokeWidth="8" />
+      <Person x={300} y={196} shirt={JADE} /><Bubble x={220} y={40} text="中医" /></g>
+  ),
+  exchange: (
+    <g><Room wall="#eef0dd" /><rect x="40" y="40" width="160" height="90" rx="4" fill="#2f3b33" stroke={INK} strokeWidth="2" />
+      <path d="M60 70 H180 M60 90 H150" stroke="#fff8e8" strokeWidth="3" />
+      <Person x={290} y={196} shirt={GOLD} /><Bubble x={220} y={150} text="留学生" /></g>
+  ),
+  money: (
+    <g><Room wall="#f3e6cf" /><rect x="60" y="90" width="70" height="34" rx="3" fill="#cfe0a8" stroke={INK} strokeWidth="2" />
+      <rect x="100" y="110" width="70" height="34" rx="3" fill="#cfe0a8" stroke={INK} strokeWidth="2" />
+      <Person x={300} y={196} shirt={RED} /><Bubble x={200} y={30} text="一万" /></g>
+  ),
+  done: (
+    <g><Room wall="#eef0dd" /><rect x="60" y="70" width="100" height="80" rx="3" fill="#fff8e8" stroke={INK} strokeWidth="2" />
+      <path d="M80 100 l12 12 l24 -26 M80 130 l12 12 l24 -26" stroke={JADE} strokeWidth="5" fill="none" />
+      <Person x={300} y={196} shirt={GOLD} /><Bubble x={210} y={150} text="全部" /></g>
+  ),
+  weekend: (
+    <g><Room wall="#f3e6cf" /><rect x="60" y="60" width="140" height="100" rx="4" fill="#fff8e8" stroke={INK} strokeWidth="2" />
+      <path d="M60 90 H200 M95 60 V100 M140 60 V100" stroke={INK} strokeWidth="2" />
+      <Person x={300} y={196} shirt={RED} /><Bubble x={210} y={30} text="周末" /></g>
+  ),
+  seasons: (
+    <g><rect width="400" height="220" fill="#dcebf4" /><circle cx="100" cy="60" r="28" fill={GOLD} />
+      <circle cx="300" cy="60" r="6" fill="#fff" /><circle cx="260" cy="90" r="5" fill="#fff" />
+      <Person x={200} y={200} shirt={JADE} /><Bubble x={220} y={140} text="夏天" /></g>
+  ),
+  spring: (
+    <g><rect width="400" height="220" fill="#dcebf4" /><rect y="150" width="400" height="70" fill="#cfe0c3" />
+      <circle cx="100" cy="130" r="10" fill="#e9a49a" /><circle cx="300" cy="136" r="10" fill={GOLD} />
+      <Person x={200} y={200} shirt={RED} /><Bubble x={60} y={30} text="春天" /></g>
+  ),
+  autumn: (
+    <g><rect width="400" height="220" fill="#f6e3d8" /><rect y="160" width="400" height="60" fill="#d8b98a" />
+      <path d="M100 70 l10 10 l-10 10 l-10 -10 Z" fill={RED} /><path d="M300 90 l10 10 l-10 10 l-10 -10 Z" fill={GOLD} />
+      <Person x={200} y={200} shirt={JADE} /><Bubble x={60} y={30} text="秋天" /></g>
+  ),
+  festival: (
+    <g><Room wall="#f6e3d8" /><rect x="150" y="40" width="40" height="56" rx="18" fill={RED} />
+      <path d="M170 40 V100" stroke={INK} strokeWidth="2" /><Person x={280} y={196} shirt={GOLD} /><Bubble x={60} y={40} text="春节" /></g>
+  ),
+  because: (
+    <g><Room wall="#eef0dd" /><rect x="60" y="80" width="70" height="50" rx="4" fill="#fff8e8" stroke={INK} strokeWidth="2" />
+      <rect x="220" y="80" width="70" height="50" rx="4" fill="#fff8e8" stroke={INK} strokeWidth="2" />
+      <path d="M130 105 H220" stroke={JADE} strokeWidth="4" /><Person x={320} y={196} shirt={RED} /><Bubble x={140} y={30} text="因为" /></g>
+  ),
+  others: (
+    <g><Room wall="#eef0dd" /><Person x={90} y={200} shirt={RED} /><Person x={160} y={200} shirt={GOLD} /><Person x={230} y={200} shirt={JADE} />
+      <Bubble x={270} y={30} text="其他" /></g>
+  ),
+  although: (
+    <g><Room wall="#eef0dd" /><rect x="90" y="80" width="60" height="60" rx="4" fill={JADE} opacity="0.4" stroke={INK} strokeWidth="2" />
+      <rect x="220" y="80" width="60" height="60" rx="4" fill={GOLD} opacity="0.4" stroke={INK} strokeWidth="2" />
+      <Person x={320} y={196} shirt={RED} /><Bubble x={150} y={30} text="虽然" /></g>
+  ),
+  crowd: (
+    <g><Room wall="#eef0dd" /><Person x={70} y={200} shirt={RED} /><Person x={120} y={200} shirt={GOLD} /><Person x={170} y={200} shirt={JADE} />
+      <Person x={220} y={200} shirt={RED} /><Person x={270} y={200} shirt={GOLD} /><Bubble x={280} y={30} text="越来越" /></g>
+  ),
+  same: (
+    <g><Room wall="#eef0dd" /><rect x="60" y="90" width="60" height="60" rx="4" fill="#fff8e8" stroke={INK} strokeWidth="2" />
+      <rect x="220" y="90" width="60" height="60" rx="4" fill="#fff8e8" stroke={INK} strokeWidth="2" />
+      <Person x={320} y={196} shirt={JADE} /><Bubble x={140} y={30} text="差不多" /></g>
+  ),
+  time: (
+    <g><Room wall="#eef0dd" /><circle cx="140" cy="110" r="40" fill="#fff8e8" stroke={INK} strokeWidth="3" />
+      <path d="M140 110 V86 M140 110 l18 10" stroke={INK} strokeWidth="3" />
+      <Person x={300} y={196} shirt={RED} /><Bubble x={220} y={40} text="正好" /></g>
+  ),
+  cloud: (
+    <g><rect width="400" height="220" fill="#dcebf4" /><ellipse cx="120" cy="70" rx="40" ry="22" fill="#fff" />
+      <ellipse cx="300" cy="60" rx="46" ry="24" fill="#fff" /><path d="M120 110 v20 M160 110 v20 M260 110 v20" stroke="#8fb9c9" strokeWidth="4" />
+      <Person x={200} y={200} shirt={RED} /><Bubble x={210} y={140} text="多云" /></g>
+  ),
+  cold: (
+    <g><rect width="400" height="220" fill="#dcebf4" /><rect y="170" width="400" height="50" fill="#fff8e8" />
+      <circle cx="140" cy="120" r="24" fill="#fff" stroke={INK} strokeWidth="2" /><circle cx="140" cy="88" r="18" fill="#fff" stroke={INK} strokeWidth="2" />
+      <Person x={300} y={200} shirt={RED} /><Bubble x={60} y={30} text="零下" /></g>
+  ),
+  sms: (
+    <g><Room wall="#eef4f2" /><rect x="130" y="60" width="70" height="110" rx="10" fill={INK} />
+      <rect x="138" y="70" width="54" height="86" fill="#cfe0e8" />
+      <Person x={300} y={196} shirt={GOLD} /><Bubble x={220} y={40} text="短信" /></g>
+  ),
+  week: (
+    <g><Room wall="#f3e6cf" /><rect x="60" y="60" width="150" height="100" rx="4" fill="#fff8e8" stroke={INK} strokeWidth="2" />
+      <path d="M60 92 H210 M60 124 H210" stroke={INK} strokeWidth="2" /><text x="135" y="150" textAnchor="middle" fontSize="22" fill={INK} fontFamily="'Noto Serif SC',serif">7</text>
+      <Person x={310} y={196} shirt={JADE} /><Bubble x={220} y={20} text="下周" /></g>
+  ),
 };
 
 export default function SceneArt({

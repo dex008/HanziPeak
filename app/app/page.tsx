@@ -1045,7 +1045,7 @@ export default function Home() {
                 <div className="teacher-bubble">{t("scenePrompt")}</div>
               </div>
               <div className="card scene-card">
-                <SceneArt unit={lesson.unit} variant={scene.art} className="scene-art" hideBubbles={Number(lesson.id.slice(3)) > 45} />
+                <SceneArt unit={lesson.unit} variant={scene.art} className="scene-art" />
                 <div className="scene-head">
                   <span className="pill">{t("conversation")}</span>
                   <span className="sub">{scene.place[lang]}</span>

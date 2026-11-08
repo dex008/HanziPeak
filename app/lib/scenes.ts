@@ -1689,7 +1689,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "By the sports field", id: "Samping lapangan" }, { en: "By the lake", id: "Samping danau" }, { en: "In the campus", id: "Di kampus" }], answer: 0 },
   },
   "h2-46": {
-    unit: 9, art: "airport",
+    unit: 9, art: "tourist",
     title: { en: "Tourists sign up", id: "Turis mendaftar" },
     place: { en: "Airport", id: "Bandara" },
     lines: [
@@ -1702,7 +1702,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Moon and stars", id: "Bulan dan bintang" }, { en: "The sea", id: "Laut" }, { en: "A film", id: "Film" }], answer: 0 },
   },
   "h2-47": {
-    unit: 9, art: "classroom",
+    unit: 9, art: "business",
     title: { en: "The businessman is unhappy", id: "Pengusaha tidak senang" },
     place: { en: "Classroom", id: "Ruang kelas" },
     lines: [
@@ -1715,7 +1715,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "The car park", id: "Parkiran" }, { en: "The classroom", id: "Ruang kelas" }, { en: "The airport", id: "Bandara" }], answer: 0 },
   },
   "h2-48": {
-    unit: 9, art: "road",
+    unit: 9, art: "sea",
     title: { en: "The sea is far", id: "Laut itu jauh" },
     place: { en: "Road", id: "Jalan" },
     lines: [
@@ -1728,7 +1728,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Coats", id: "Mantel" }, { en: "Hats", id: "Topi" }, { en: "Shorts", id: "Celana pendek" }], answer: 0 },
   },
   "h2-49": {
-    unit: 9, art: "campus",
+    unit: 9, art: "intern",
     title: { en: "The director nods", id: "Direktur mengangguk" },
     place: { en: "Campus", id: "Kampus" },
     lines: [
@@ -1741,7 +1741,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "The director", id: "Direktur" }, { en: "The student", id: "Mahasiswa" }, { en: "The singer", id: "Penyanyi" }], answer: 0 },
   },
   "h2-50": {
-    unit: 9, art: "bedroom",
+    unit: 9, art: "snow",
     title: { en: "It snowed", id: "Turun salju" },
     place: { en: "Bedroom", id: "Kamar" },
     lines: [
@@ -1754,7 +1754,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Snowing", id: "Bersalju" }, { en: "Sunny", id: "Cerah" }, { en: "Raining", id: "Hujan" }], answer: 0 },
   },
   "h2-51": {
-    unit: 10, art: "park",
+    unit: 10, art: "gym",
     title: { en: "Old friends at the gym", id: "Teman lama di gym" },
     place: { en: "Park", id: "Taman" },
     lines: [
@@ -1767,7 +1767,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Taking notes", id: "Mencatat" }, { en: "Cooking", id: "Memasak" }, { en: "Running", id: "Berlari" }], answer: 0 },
   },
   "h2-52": {
-    unit: 10, art: "grocery",
+    unit: 10, art: "zoo",
     title: { en: "Photos at the zoo", id: "Foto di kebun binatang" },
     place: { en: "Shop", id: "Toko" },
     lines: [
@@ -1780,7 +1780,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "The zoo", id: "Kebun binatang" }, { en: "The gym", id: "Gym" }, { en: "The bank", id: "Bank" }], answer: 0 },
   },
   "h2-53": {
-    unit: 10, art: "tea",
+    unit: 10, art: "chopsticks",
     title: { en: "Chopsticks and sentences", id: "Sumpit dan kalimat" },
     place: { en: "Tea shop", id: "Kedai teh" },
     lines: [
@@ -1793,7 +1793,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Chopsticks", id: "Sumpit" }, { en: "A spoon", id: "Sendok" }, { en: "Hands", id: "Tangan" }], answer: 0 },
   },
   "h2-54": {
-    unit: 10, art: "lobby",
+    unit: 10, art: "dumplings",
     title: { en: "Dumplings at the station", id: "Pangsit di stasiun" },
     place: { en: "Lobby", id: "Lobi" },
     lines: [
@@ -1806,7 +1806,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Dumplings", id: "Pangsit" }, { en: "Noodles", id: "Mi" }, { en: "Rice", id: "Nasi" }], answer: 0 },
   },
   "h2-55": {
-    unit: 10, art: "family2",
+    unit: 10, art: "toast",
     title: { en: "Mandarin and a toast", id: "Mandarin dan bersulang" },
     place: { en: "Home", id: "Rumah" },
     lines: [
@@ -1819,7 +1819,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Mandarin", id: "Mandarin" }, { en: "English", id: "Inggris" }, { en: "Indonesian", id: "Indonesia" }], answer: 0 },
   },
   "h2-56": {
-    unit: 11, art: "mountain",
+    unit: 11, art: "climb",
     title: { en: "Sneakers for the climb", id: "Sepatu untuk mendaki" },
     place: { en: "Mountain", id: "Gunung" },
     lines: [
@@ -1832,7 +1832,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Sneakers", id: "Sepatu olahraga" }, { en: "Leather shoes", id: "Sepatu kulit" }, { en: "Boots", id: "Sepatu bot" }], answer: 0 },
   },
   "h2-57": {
-    unit: 11, art: "ward",
+    unit: 11, art: "medicine",
     title: { en: "Chinese medicine", id: "Pengobatan Tiongkok" },
     place: { en: "Hospital room", id: "Kamar rumah sakit" },
     lines: [
@@ -1845,7 +1845,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Directions", id: "Arah jalan" }, { en: "The price", id: "Harga" }, { en: "The time", id: "Waktu" }], answer: 0 },
   },
   "h2-58": {
-    unit: 11, art: "news",
+    unit: 11, art: "exchange",
     title: { en: "Exchange students", id: "Mahasiswa asing" },
     place: { en: "Living room", id: "Ruang tamu" },
     lines: [
@@ -1858,7 +1858,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Western", id: "Barat" }, { en: "Chinese", id: "Tiongkok" }, { en: "Fast food", id: "Cepat saji" }], answer: 0 },
   },
   "h2-59": {
-    unit: 11, art: "shop",
+    unit: 11, art: "money",
     title: { en: "Ten thousand", id: "Sepuluh ribu" },
     place: { en: "Shop", id: "Toko" },
     lines: [
@@ -1871,7 +1871,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Ten thousand", id: "Sepuluh ribu" }, { en: "One thousand", id: "Seribu" }, { en: "One hundred", id: "Seratus" }], answer: 0 },
   },
   "h2-60": {
-    unit: 11, art: "street",
+    unit: 11, art: "done",
     title: { en: "All done recently", id: "Semua selesai" },
     place: { en: "Street", id: "Jalan" },
     lines: [
@@ -1884,7 +1884,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Many people's", id: "Banyak orang" }, { en: "The teacher's", id: "Guru" }, { en: "Nobody's", id: "Tidak ada" }], answer: 0 },
   },
   "h2-61": {
-    unit: 12, art: "news",
+    unit: 12, art: "weekend",
     title: { en: "After the weekend", id: "Setelah akhir pekan" },
     place: { en: "Living room", id: "Ruang tamu" },
     lines: [
@@ -1896,7 +1896,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Good later", id: "Bagus nanti" }, { en: "Bad", id: "Buruk" }, { en: "Boring", id: "Membosankan" }], answer: 0 },
   },
   "h2-62": {
-    unit: 12, art: "park",
+    unit: 12, art: "seasons",
     title: { en: "Summer and winter", id: "Musim panas dan dingin" },
     place: { en: "Park", id: "Taman" },
     lines: [
@@ -1908,7 +1908,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "The south", id: "Selatan" }, { en: "The north", id: "Utara" }, { en: "The east", id: "Timur" }], answer: 0 },
   },
   "h2-63": {
-    unit: 12, art: "family2",
+    unit: 12, art: "spring",
     title: { en: "Spring holiday", id: "Libur musim semi" },
     place: { en: "Home", id: "Rumah" },
     lines: [
@@ -1920,7 +1920,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "The north", id: "Utara" }, { en: "The west", id: "Barat" }, { en: "The south", id: "Selatan" }], answer: 0 },
   },
   "h2-64": {
-    unit: 12, art: "living2",
+    unit: 12, art: "autumn",
     title: { en: "Autumn night", id: "Malam musim gugur" },
     place: { en: "Living room", id: "Ruang tamu" },
     lines: [
@@ -1932,7 +1932,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Cool", id: "Sejuk" }, { en: "Hot", id: "Panas" }, { en: "Warm", id: "Hangat" }], answer: 0 },
   },
   "h2-65": {
-    unit: 12, art: "shop",
+    unit: 12, art: "festival",
     title: { en: "Spring Festival", id: "Festival Musim Semi" },
     place: { en: "Shop", id: "Toko" },
     lines: [
@@ -1944,7 +1944,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Yes, but busier", id: "Ya, tapi lebih ramai" }, { en: "No", id: "Tidak" }, { en: "Smaller", id: "Lebih kecil" }], answer: 0 },
   },
   "h2-66": {
-    unit: 13, art: "classroom",
+    unit: 13, art: "because",
     title: { en: "So and because", id: "Jadi dan karena" },
     place: { en: "Classroom", id: "Ruang kelas" },
     lines: [
@@ -1956,7 +1956,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "It is harder", id: "Lebih sulit" }, { en: "It is easy", id: "Mudah" }, { en: "No reason", id: "Tanpa alasan" }], answer: 0 },
   },
   "h2-67": {
-    unit: 13, art: "office2",
+    unit: 13, art: "others",
     title: { en: "Then and other things", id: "Lalu dan hal lain" },
     place: { en: "Office", id: "Kantor" },
     lines: [
@@ -1968,7 +1968,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "The venue", id: "Venue" }, { en: "Home", id: "Rumah" }, { en: "The shop", id: "Toko" }], answer: 0 },
   },
   "h2-68": {
-    unit: 13, art: "cafe",
+    unit: 13, art: "although",
     title: { en: "Although and if only", id: "Meskipun dan asalkan" },
     place: { en: "Café", id: "Kafe" },
     lines: [
@@ -1980,7 +1980,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Practice", id: "Latihan" }, { en: "Money", id: "Uang" }, { en: "Luck", id: "Keberuntungan" }], answer: 0 },
   },
   "h2-69": {
-    unit: 13, art: "campus",
+    unit: 13, art: "crowd",
     title: { en: "More and more", id: "Semakin" },
     place: { en: "Campus", id: "Kampus" },
     lines: [
@@ -1992,7 +1992,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "More and more", id: "Semakin banyak" }, { en: "Fewer", id: "Semakin sedikit" }, { en: "Same", id: "Sama" }], answer: 0 },
   },
   "h2-70": {
-    unit: 13, art: "lobby",
+    unit: 13, art: "same",
     title: { en: "Nearly the same", id: "Hampir sama" },
     place: { en: "Lobby", id: "Lobi" },
     lines: [
@@ -2004,7 +2004,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "About the same", id: "Hampir sama" }, { en: "Very different", id: "Sangat berbeda" }, { en: "Bad", id: "Buruk" }], answer: 0 },
   },
   "h2-71": {
-    unit: 14, art: "road",
+    unit: 14, art: "time",
     title: { en: "Right on time", id: "Tepat waktu" },
     place: { en: "Street", id: "Jalan" },
     lines: [
@@ -2016,7 +2016,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "No", id: "Tidak" }, { en: "Yes", id: "Ya" }, { en: "Maybe", id: "Mungkin" }], answer: 0 },
   },
   "h2-72": {
-    unit: 14, art: "street",
+    unit: 14, art: "cloud",
     title: { en: "Cloudy and about to rain", id: "Mendung dan hampir hujan" },
     place: { en: "Street", id: "Jalan" },
     lines: [
@@ -2028,7 +2028,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "About to rain", id: "Hampir hujan" }, { en: "Sunny", id: "Cerah" }, { en: "Snowing", id: "Bersalju" }], answer: 0 },
   },
   "h2-73": {
-    unit: 14, art: "grocery",
+    unit: 14, art: "cold",
     title: { en: "Below zero", id: "Di bawah nol" },
     place: { en: "Shop", id: "Toko" },
     lines: [
@@ -2040,7 +2040,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Ten below zero", id: "Sepuluh di bawah nol" }, { en: "Ten above", id: "Sepuluh di atas" }, { en: "Zero", id: "Nol" }], answer: 0 },
   },
   "h2-74": {
-    unit: 14, art: "airport",
+    unit: 14, art: "sms",
     title: { en: "A text message", id: "Pesan singkat" },
     place: { en: "Airport", id: "Bandara" },
     lines: [
@@ -2052,7 +2052,7 @@ export const LESSON_SCENES: Record<string, Scene> = {
       { en: "Not too fast", id: "Tidak terlalu cepat" }, { en: "Very fast", id: "Sangat cepat" }, { en: "Late", id: "Terlambat" }], answer: 0 },
   },
   "h2-75": {
-    unit: 14, art: "tea",
+    unit: 14, art: "week",
     title: { en: "Next week, if free", id: "Minggu depan kalau ada waktu" },
     place: { en: "Tea shop", id: "Kedai teh" },
     lines: [

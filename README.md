@@ -3,17 +3,17 @@
 A free, fast, bilingual (English / Indonesian) **Android app** for learning Mandarin — HSK 3.0
 aligned, spaced-repetition driven, and built to feel like a game.
 
-> **Status: v3.1.0 — HSK 2 complete: 75 lessons / 746 words.**
-> HSK 1: 30 illustrated lessons · HSK 2: 75 lessons · panda gestures · conversation scoring · offline.
+> **Status: v3.2.0 — HSK 2 complete with unique art for all 75 lessons.**
+> HSK 1: 30 illustrated lessons · HSK 2: 75 lessons / 746 words · panda gestures · conversation scoring · offline.
 > **Package:** `com.hanziquest.app` *(kept unchanged so every build updates in place).*
 
 ## Try it on your phone
 
-**APK:** [`dist/HanziPeak-3.1.0-debug.apk`](dist/HanziPeak-3.1.0-debug.apk) — 4.5 MB
-**SHA-256:** `24759EEE47A4D6065D170D7E04CE565CCF376C3759753718DB1E23C33B32EA54`
+**APK:** [`dist/HanziPeak-3.2.0-debug.apk`](dist/HanziPeak-3.2.0-debug.apk) — 4.5 MB
+**SHA-256:** `902714484976D3B756FFF41DBF0042B5426D4C0BBA791BD7FC30FDF306E85B6F`
 
 ```powershell
-& 'C:\Android\Sdk\platform-tools\adb.exe' install -r dist\HanziPeak-3.1.0-debug.apk
+& 'C:\Android\Sdk\platform-tools\adb.exe' install -r dist\HanziPeak-3.2.0-debug.apk
 ```
 
 ## Course scope
@@ -21,10 +21,11 @@ aligned, spaced-repetition driven, and built to feel like a game.
 | Course | Words | Lessons | Scenes |
 |---|---|---|---|
 | HSK 1 | 300 | 30 | unique art for all 30 |
-| HSK 2 | 746 | 75 | unique art for 1–45; 46–75 reuse art (labels hidden) |
+| HSK 2 | 746 | 75 | unique art for all 75 |
 
-The HSK 3.0 level-2 source list yielded **746 usable words** after removing HSK 1 duplicates and
-entries without a usable form, so HSK 2 stops at 746 (75 lessons, last one partial).
+Art pass v3.2 added 30 new illustrations for lessons 46–75 (tourists, sea, snow, gym, zoo,
+chopsticks, dumplings, climbing, medicine, exchange students, seasons, festival, connectors,
+crowds, weather, SMS, next week…), each with its own correct label.
 
 ## HSK 2 progress
 
