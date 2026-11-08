@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">HanziPeak</string>
+    <string name="title_activity_main">HanziPeak</string>
+    <string name="package_name">com.hanziquest.app</string>
+    <string name="custom_url_scheme">com.hanziquest.app</string>
+</resources>

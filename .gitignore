@@ -1,0 +1,19 @@
+# build tools downloaded by the agent (JDK 21). Not part of the project.
+.tools/
+
+# Android build outputs
+app/android/app/build/
+app/android/build/
+app/android/.gradle/
+app/android/local.properties
+
+# Web build
+app/.next/
+app/out/
+app/node_modules/
+
+# Verification screenshots
+app/shots/
+
+# APK deliverables
+dist/*.apk

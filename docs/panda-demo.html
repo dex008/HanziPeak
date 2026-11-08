@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>潘老师 — panda teacher demo</title>
+    <style>
+      :root { --ink: #1e1b16; --muted: #7a7264; --line: #e7decb; --red: #b8432f; --jade: #2e6b5a; }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #f3ecdd;
+        font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+        color: var(--ink);
+      }
+      .stage { text-align: center; padding: 24px; }
+      .name { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 800; }
+      .bubble {
+        display: inline-block; margin: 10px 0 4px; padding: 10px 16px; border-radius: 14px;
+        background: #fffaf0; border: 1px solid var(--line); font-weight: 600; font-size: 15px; min-width: 240px;
+      }
+      .panda { overflow: visible; animation: panda-bob 3.4s ease-in-out infinite; transform-origin: 60px 90px; }
+      .panda .eyes { animation: panda-blink 4.8s ease-in-out infinite; transform-origin: 60px 54px; }
+      .panda .mouth { transform-origin: 60px 74px; }
+      .panda.talking .mouth { animation: panda-talk .26s ease-in-out infinite alternate; }
+      .panda.happy { animation: panda-nod 1.8s ease-in-out infinite; }
+      .panda.cheer .arm-right { animation: panda-wave .55s ease-in-out infinite alternate; transform-origin: 89px 80px; }
+      .panda.sad { animation: panda-sad 2.6s ease-in-out infinite; }
+      @keyframes panda-bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+      @keyframes panda-blink { 0%,92%,100% { transform: scaleY(1); } 95% { transform: scaleY(.12); } }
+      @keyframes panda-talk { from { transform: scaleY(1); } to { transform: scaleY(.5); } }
+      @keyframes panda-wave { from { transform: rotate(-6deg); } to { transform: rotate(10deg); } }
+      @keyframes panda-nod { 0%,100% { transform: translateY(0) rotate(0); } 30% { transform: translateY(2px) rotate(-2deg); } 60% { transform: translateY(0) rotate(0); } }
+      @keyframes panda-sad { 0%,100% { transform: rotate(0); } 50% { transform: rotate(-2deg); } }
+    </style>
+  </head>
+  <body>
+    <div class="stage">
+      <div class="name">潘老师 · HanziPeak</div>
+      <div class="bubble" id="bubble">Listen, then say it with me.</div>
+      <div id="host"></div>
+    </div>
+    <script>
+      const host = document.getElementById("host");
+      const bubble = document.getElementById("bubble");
+      const moods = [
+        { cls: "idle", text: "Listen, then say it with me." },
+        { cls: "happy", text: "Lovely tones!" },
+        { cls: "sad", text: "Try again, slower." },
+        { cls: "cheer", text: "Great job!" },
+      ];
+      function render(mood) {
+        const happy = mood.cls === "happy" || mood.cls === "cheer";
+        host.innerHTML = `
+        <svg viewBox="0 0 120 120" width="300" height="300" class="panda ${mood.cls} ${mood.cls === "idle" ? "talking" : ""}" role="img" aria-label="Panda teacher">
+          <ellipse cx="60" cy="113" rx="32" ry="5" fill="#1e1b16" opacity=".09"/>
+          <ellipse cx="60" cy="93" rx="28" ry="21" fill="#fdfbf4" stroke="#1e1b16" stroke-width="2.4"/>
+          <ellipse cx="43" cy="97" rx="8.5" ry="11" fill="#1e1b16"/>
+          <ellipse cx="77" cy="97" rx="8.5" ry="11" fill="#1e1b16"/>
+          <g class="arm arm-left"><ellipse cx="31" cy="87" rx="8.5" ry="14" fill="#1e1b16" transform="rotate(20 31 87)"/></g>
+          <g class="arm arm-right"><ellipse cx="89" cy="87" rx="8.5" ry="14" fill="#1e1b16" transform="rotate(-20 89 87)"/></g>
+          <circle cx="33" cy="33" r="13.5" fill="#1e1b16"/>
+          <circle cx="87" cy="33" r="13.5" fill="#1e1b16"/>
+          <circle cx="60" cy="57" r="33" fill="#fdfbf4" stroke="#1e1b16" stroke-width="2.4"/>
+          <ellipse cx="46" cy="55" rx="9.5" ry="11.5" fill="#1e1b16" transform="rotate(-14 46 55)"/>
+          <ellipse cx="74" cy="55" rx="9.5" ry="11.5" fill="#1e1b16" transform="rotate(14 74 55)"/>
+          ${happy
+            ? `<g class="eyes" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round"><path d="M41 56 q5 -6 10 0"/><path d="M69 56 q5 -6 10 0"/></g>`
+            : `<g class="eyes"><circle cx="46" cy="54" r="3.3" fill="#fff"/><circle cx="74" cy="54" r="3.3" fill="#fff"/></g>`}
+          <ellipse cx="60" cy="67" rx="4.2" ry="3" fill="#1e1b16"/>
+          ${mood.cls === "sad"
+            ? `<path class="mouth" d="M53 76 Q60 71 67 76" stroke="#1e1b16" stroke-width="2.2" fill="none" stroke-linecap="round"/>`
+            : mood.cls === "cheer"
+              ? `<ellipse class="mouth" cx="60" cy="75" rx="7" ry="5" fill="#1e1b16"/>`
+              : `<path class="mouth" d="M53 73 Q60 79 67 73" stroke="#1e1b16" stroke-width="2.2" fill="none" stroke-linecap="round"/>`}
+          <circle cx="34" cy="68" r="4" fill="#e9a49a" opacity=".45"/>
+          <circle cx="86" cy="68" r="4" fill="#e9a49a" opacity=".45"/>
+        </svg>`;
+        bubble.textContent = mood.text;
+      }
+      let i = 0;
+      render(moods[0]);
+      setInterval(() => {
+        i = (i + 1) % moods.length;
+        render(moods[i]);
+      }, 1400);
+    </script>
+  </body>
+</html>
