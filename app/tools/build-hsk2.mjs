@@ -9,7 +9,7 @@ const RAW = path.resolve("../.tools/hsk2.json");
 const WORDS1 = path.resolve("lib/words.ts");
 const OUT = path.resolve("lib/words2.ts");
 const CACHE = path.resolve("../.tools/id2-cache.json");
-const TARGET = 600;
+const TARGET = 755;
 
 /** Concrete words that should be taught first (lessons 1–5). */
 const PRIORITY2 = [

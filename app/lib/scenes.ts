@@ -1883,4 +1883,184 @@ export const LESSON_SCENES: Record<string, Scene> = {
     question: { en: "Whose car is it?", id: "Mobil itu punya siapa?", options: [
       { en: "Many people's", id: "Banyak orang" }, { en: "The teacher's", id: "Guru" }, { en: "Nobody's", id: "Tidak ada" }], answer: 0 },
   },
+  "h2-61": {
+    unit: 12, art: "news",
+    title: { en: "After the weekend", id: "Setelah akhir pekan" },
+    place: { en: "Living room", id: "Ruang tamu" },
+    lines: [
+      { who: "A", name: "小明", h: "刚才的周末怎么样？", p: "Gāngcái de zhōumò zěnmeyàng?", en: "How was the weekend just now?", id: "Akhir pekan tadi bagaimana?" },
+      { who: "B", name: "小美", h: "后来很好，有好多事。", p: "Hòulái hěn hǎo, yǒu hǎoduō shì.", en: "Afterwards it was good, lots of things.", id: "Nanti bagus, banyak hal." },
+      { who: "A", name: "小明", h: "大多数人都去了？", p: "Dàduōshù rén dōu qù le?", en: "Did most people go?", id: "Kebanyakan orang pergi?" },
+    ],
+    question: { en: "How was the weekend?", id: "Bagaimana akhir pekannya?", options: [
+      { en: "Good later", id: "Bagus nanti" }, { en: "Bad", id: "Buruk" }, { en: "Boring", id: "Membosankan" }], answer: 0 },
+  },
+  "h2-62": {
+    unit: 12, art: "park",
+    title: { en: "Summer and winter", id: "Musim panas dan dingin" },
+    place: { en: "Park", id: "Taman" },
+    lines: [
+      { who: "A", name: "小美", h: "夏天早晨凉快吗？", p: "Xiàtiān zǎochén liángkuai ma?", en: "Are summer mornings cool?", id: "Pagi musim panas sejuk?" },
+      { who: "B", name: "小明", h: "凉快，南方更好。", p: "Liángkuai, nánfāng gèng hǎo.", en: "Cool, the south is better.", id: "Sejuk, selatan lebih baik." },
+      { who: "A", name: "小美", h: "冬天你怕冷吗？", p: "Dōngtiān nǐ pà lěng ma?", en: "Are you afraid of the winter cold?", id: "Musim dingin kamu takut dingin?" },
+    ],
+    question: { en: "Which place is better?", id: "Tempat mana yang lebih baik?", options: [
+      { en: "The south", id: "Selatan" }, { en: "The north", id: "Utara" }, { en: "The east", id: "Timur" }], answer: 0 },
+  },
+  "h2-63": {
+    unit: 12, art: "family2",
+    title: { en: "Spring holiday", id: "Libur musim semi" },
+    place: { en: "Home", id: "Rumah" },
+    lines: [
+      { who: "A", name: "小明", h: "春天假期去哪儿？", p: "Chūntiān jiàqī qù nǎr?", en: "Where to go for the spring holiday?", id: "Libur musim semi ke mana?" },
+      { who: "B", name: "小美", h: "北方，一公斤行李。", p: "Běifāng, yì gōngjīn xíngli.", en: "The north, one kilo of luggage.", id: "Utara, satu kilo bagasi." },
+      { who: "A", name: "小明", h: "半夜出发吗？", p: "Bànyè chūfā ma?", en: "Leaving at midnight?", id: "Berangkat tengah malam?" },
+    ],
+    question: { en: "Where are they going?", id: "Mereka ke mana?", options: [
+      { en: "The north", id: "Utara" }, { en: "The west", id: "Barat" }, { en: "The south", id: "Selatan" }], answer: 0 },
+  },
+  "h2-64": {
+    unit: 12, art: "living2",
+    title: { en: "Autumn night", id: "Malam musim gugur" },
+    place: { en: "Living room", id: "Ruang tamu" },
+    lines: [
+      { who: "A", name: "小美", h: "秋天的夜里凉吗？", p: "Qiūtiān de yèlǐ liáng ma?", en: "Are autumn nights cool?", id: "Malam musim gugur sejuk?" },
+      { who: "B", name: "小明", h: "凉，里头有衣服。", p: "Liáng, lǐtou yǒu yīfu.", en: "Cool, there are clothes inside.", id: "Sejuk, di dalam ada baju." },
+      { who: "A", name: "小美", h: "中年人也去吗？", p: "Zhōngnián rén yě qù ma?", en: "Do middle-aged people go too?", id: "Orang paruh baya juga pergi?" },
+    ],
+    question: { en: "How are autumn nights?", id: "Bagaimana malam musim gugur?", options: [
+      { en: "Cool", id: "Sejuk" }, { en: "Hot", id: "Panas" }, { en: "Warm", id: "Hangat" }], answer: 0 },
+  },
+  "h2-65": {
+    unit: 12, art: "shop",
+    title: { en: "Spring Festival", id: "Festival Musim Semi" },
+    place: { en: "Shop", id: "Toko" },
+    lines: [
+      { who: "A", name: "小明", h: "春节前年也这样吗？", p: "Chūnjié qiánnián yě zhèyàng ma?", en: "Was Spring Festival like this the year before last?", id: "Festival Musim Semi dua tahun lalu juga begini?" },
+      { who: "B", name: "小美", h: "已经一样，但人更多。", p: "Yǐjīng yíyàng, dàn rén gèng duō.", en: "Already the same, but more people.", id: "Sudah sama, tapi orangnya lebih banyak." },
+      { who: "A", name: "小明", h: "一点点东西就够吗？", p: "Yìdiǎndiǎn dōngxi jiù gòu ma?", en: "Is a little bit of food enough?", id: "Sedikit barang sudah cukup?" },
+    ],
+    question: { en: "Was it the same before?", id: "Apakah dulu sama?", options: [
+      { en: "Yes, but busier", id: "Ya, tapi lebih ramai" }, { en: "No", id: "Tidak" }, { en: "Smaller", id: "Lebih kecil" }], answer: 0 },
+  },
+  "h2-66": {
+    unit: 13, art: "classroom",
+    title: { en: "So and because", id: "Jadi dan karena" },
+    place: { en: "Classroom", id: "Ruang kelas" },
+    lines: [
+      { who: "A", name: "小美", h: "为什么一直这样？", p: "Wèishénme yìzhí zhèyàng?", en: "Why is it always like this?", id: "Kenapa selalu begini?" },
+      { who: "B", name: "小明", h: "因为它更难，所以必须练。", p: "Yīnwèi tā gèng nán, suǒyǐ bìxū liàn.", en: "Because it's harder, so we must practise.", id: "Karena lebih sulit, jadi harus latihan." },
+      { who: "A", name: "小美", h: "不过不要着急。", p: "Búguò búyào zháojí.", en: "But don't rush.", id: "Tapi jangan buru-buru." },
+    ],
+    question: { en: "Why practise?", id: "Kenapa harus latihan?", options: [
+      { en: "It is harder", id: "Lebih sulit" }, { en: "It is easy", id: "Mudah" }, { en: "No reason", id: "Tanpa alasan" }], answer: 0 },
+  },
+  "h2-67": {
+    unit: 13, art: "office2",
+    title: { en: "Then and other things", id: "Lalu dan hal lain" },
+    place: { en: "Office", id: "Kantor" },
+    lines: [
+      { who: "A", name: "小明", h: "其他人来了吗？", p: "Qítā rén lái le ma?", en: "Did the others come?", id: "Orang lain datang?" },
+      { who: "B", name: "小美", h: "来了，然后去了会场。", p: "Lái le, ránhòu qù le huìchǎng.", en: "Yes, then went to the venue.", id: "Datang, lalu ke venue." },
+      { who: "A", name: "小明", h: "或者他们刚走？", p: "Huòzhě tāmen gāng zǒu?", en: "Or did they just leave?", id: "Atau mereka baru pergi?" },
+    ],
+    question: { en: "Where did they go?", id: "Mereka ke mana?", options: [
+      { en: "The venue", id: "Venue" }, { en: "Home", id: "Rumah" }, { en: "The shop", id: "Toko" }], answer: 0 },
+  },
+  "h2-68": {
+    unit: 13, art: "cafe",
+    title: { en: "Although and if only", id: "Meskipun dan asalkan" },
+    place: { en: "Café", id: "Kafe" },
+    lines: [
+      { who: "A", name: "小美", h: "虽然难，但只要练就好。", p: "Suīrán nán, dàn zhǐyào liàn jiù hǎo.", en: "Although hard, as long as you practise it's fine.", id: "Meski sulit, asal latihan saja." },
+      { who: "B", name: "小明", h: "有人真正喜欢吗？", p: "Yǒu rén zhēnzhèng xǐhuan ma?", en: "Does anyone truly like it?", id: "Ada yang benar-benar suka?" },
+      { who: "A", name: "小美", h: "也许刚刚开始。", p: "Yěxǔ gānggāng kāishǐ.", en: "Perhaps it just started.", id: "Mungkin baru mulai." },
+    ],
+    question: { en: "What is enough?", id: "Apa yang cukup?", options: [
+      { en: "Practice", id: "Latihan" }, { en: "Money", id: "Uang" }, { en: "Luck", id: "Keberuntungan" }], answer: 0 },
+  },
+  "h2-69": {
+    unit: 13, art: "campus",
+    title: { en: "More and more", id: "Semakin" },
+    place: { en: "Campus", id: "Kampus" },
+    lines: [
+      { who: "A", name: "小明", h: "他们经常来吗？", p: "Tāmen jīngcháng lái ma?", en: "Do they come often?", id: "Mereka sering datang?" },
+      { who: "B", name: "小美", h: "经常，人越来越多。", p: "Jīngcháng, rén yuèláiyuè duō.", en: "Often, more and more people.", id: "Sering, makin banyak orang." },
+      { who: "A", name: "小明", h: "主要是什么样的人？", p: "Zhǔyào shì shénme yàng de rén?", en: "Mainly what kind of people?", id: "Terutama orang seperti apa?" },
+    ],
+    question: { en: "How are the numbers?", id: "Bagaimana jumlahnya?", options: [
+      { en: "More and more", id: "Semakin banyak" }, { en: "Fewer", id: "Semakin sedikit" }, { en: "Same", id: "Sama" }], answer: 0 },
+  },
+  "h2-70": {
+    unit: 13, art: "lobby",
+    title: { en: "Nearly the same", id: "Hampir sama" },
+    place: { en: "Lobby", id: "Lobi" },
+    lines: [
+      { who: "A", name: "小美", h: "咱们的英语差不多吗？", p: "Zánmen de yīngyǔ chàbuduō ma?", en: "Is our English about the same?", id: "Bahasa Inggris kita hampir sama?" },
+      { who: "B", name: "小明", h: "差不多，心里十分高兴。", p: "Chàbuduō, xīnlǐ shífēn gāoxìng.", en: "About the same, very happy inside.", id: "Hampir sama, hati sangat senang." },
+      { who: "A", name: "小美", h: "那时候你觉得怎么样？", p: "Nà shíhou nǐ juéde zěnmeyàng?", en: "How did you feel then?", id: "Waktu itu kamu merasa bagaimana?" },
+    ],
+    question: { en: "How is their English?", id: "Bagaimana bahasa Inggris mereka?", options: [
+      { en: "About the same", id: "Hampir sama" }, { en: "Very different", id: "Sangat berbeda" }, { en: "Bad", id: "Buruk" }], answer: 0 },
+  },
+  "h2-71": {
+    unit: 14, art: "road",
+    title: { en: "Right on time", id: "Tepat waktu" },
+    place: { en: "Street", id: "Jalan" },
+    lines: [
+      { who: "A", name: "小明", h: "你早就到了？", p: "Nǐ zǎojiù dào le?", en: "You arrived long ago?", id: "Kamu sudah tiba dari tadi?" },
+      { who: "B", name: "小美", h: "正好到了，没故意晚。", p: "Zhènghǎo dào le, méi gùyì wǎn.", en: "Just arrived, not deliberately late.", id: "Tepat tiba, tidak sengaja terlambat." },
+      { who: "A", name: "小明", h: "那大声说吧。", p: "Nà dàshēng shuō ba.", en: "Then say it loudly.", id: "Kalau begitu bicara keras." },
+    ],
+    question: { en: "Was she deliberately late?", id: "Apakah dia sengaja terlambat?", options: [
+      { en: "No", id: "Tidak" }, { en: "Yes", id: "Ya" }, { en: "Maybe", id: "Mungkin" }], answer: 0 },
+  },
+  "h2-72": {
+    unit: 14, art: "street",
+    title: { en: "Cloudy and about to rain", id: "Mendung dan hampir hujan" },
+    place: { en: "Street", id: "Jalan" },
+    lines: [
+      { who: "A", name: "小美", h: "天上多云，快要下雨了。", p: "Tiānshàng duōyún, kuàiyào xiàyǔ le.", en: "It's cloudy, it's about to rain.", id: "Langit mendung, hampir hujan." },
+      { who: "B", name: "小明", h: "不一定，老是变。", p: "Bùyídìng, lǎoshì biàn.", en: "Not necessarily, it always changes.", id: "Belum tentu, selalu berubah." },
+      { who: "A", name: "小美", h: "从小就这样。", p: "Cóngxiǎo jiù zhèyàng.", en: "It's been like this since childhood.", id: "Dari kecil begitu." },
+    ],
+    question: { en: "What is the weather doing?", id: "Bagaimana cuacanya?", options: [
+      { en: "About to rain", id: "Hampir hujan" }, { en: "Sunny", id: "Cerah" }, { en: "Snowing", id: "Bersalju" }], answer: 0 },
+  },
+  "h2-73": {
+    unit: 14, art: "grocery",
+    title: { en: "Below zero", id: "Di bawah nol" },
+    place: { en: "Shop", id: "Toko" },
+    lines: [
+      { who: "A", name: "小明", h: "东北零下十度吗？", p: "Dōngběi língxià shí dù ma?", en: "Is it ten below in the northeast?", id: "Timur laut sepuluh derajat di bawah nol?" },
+      { who: "B", name: "小美", h: "对，路边有雪。", p: "Duì, lùbiān yǒu xuě.", en: "Yes, snow by the road.", id: "Ya, ada salju di pinggir jalan." },
+      { who: "A", name: "小明", h: "外卖有点儿慢。", p: "Wàimài yǒudiǎnr màn.", en: "Delivery is a bit slow.", id: "Antarannya agak lambat." },
+    ],
+    question: { en: "How cold is it?", id: "Seberapa dingin?", options: [
+      { en: "Ten below zero", id: "Sepuluh di bawah nol" }, { en: "Ten above", id: "Sepuluh di atas" }, { en: "Zero", id: "Nol" }], answer: 0 },
+  },
+  "h2-74": {
+    unit: 14, art: "airport",
+    title: { en: "A text message", id: "Pesan singkat" },
+    place: { en: "Airport", id: "Bandara" },
+    lines: [
+      { who: "A", name: "小美", h: "公交车快点儿了吗？", p: "Gōngjiāochē kuàidiǎnr le ma?", en: "Is the bus faster now?", id: "Busnya lebih cepat?" },
+      { who: "B", name: "小明", h: "不太快，短信说见过。", p: "Bútài kuài, duǎnxìn shuō jiànguò.", en: "Not too fast, the text said seen.", id: "Tidak terlalu cepat, SMS bilang sudah lihat." },
+      { who: "A", name: "小美", h: "那时候中级班很好。", p: "Nà shíhou zhōngjí bān hěn hǎo.", en: "The intermediate class was good then.", id: "Kelas menengah bagus waktu itu." },
+    ],
+    question: { en: "How was the bus?", id: "Bagaimana busnya?", options: [
+      { en: "Not too fast", id: "Tidak terlalu cepat" }, { en: "Very fast", id: "Sangat cepat" }, { en: "Late", id: "Terlambat" }], answer: 0 },
+  },
+  "h2-75": {
+    unit: 14, art: "tea",
+    title: { en: "Next week, if free", id: "Minggu depan kalau ada waktu" },
+    place: { en: "Tea shop", id: "Kedai teh" },
+    lines: [
+      { who: "A", name: "小明", h: "下周有空儿吗？", p: "Xiàzhōu yǒu kòngr ma?", en: "Are you free next week?", id: "Minggu depan ada waktu?" },
+      { who: "B", name: "小美", h: "挺好，有一点儿时间。", p: "Tǐng hǎo, yǒu yìdiǎnr shíjiān.", en: "Very good, a little time.", id: "Bagus, ada sedikit waktu." },
+      { who: "A", name: "小明", h: "带银行卡，讲笑话儿。", p: "Dài yínhángkǎ, jiǎng xiàohuar.", en: "Bring a bank card, tell a joke.", id: "Bawa kartu bank, ceritakan lelucon." },
+    ],
+    question: { en: "When are they meeting?", id: "Kapan mereka bertemu?", options: [
+      { en: "Next week", id: "Minggu depan" }, { en: "Tomorrow", id: "Besok" }, { en: "Tonight", id: "Malam ini" }], answer: 0 },
+  },
 };

@@ -58,6 +58,9 @@ const UNIT_TITLES2: Array<{ en: string; id: string }> = [
   { en: "Out & about", id: "Keluar rumah" },
   { en: "Study & health", id: "Belajar & sehat" },
   { en: "Language & numbers", id: "Bahasa & angka" },
+  { en: "Time & seasons", id: "Waktu & musim" },
+  { en: "Connectors", id: "Kata sambung" },
+  { en: "Everyday talk", id: "Obrolan sehari-hari" },
 ];
 
 export const LESSONS2: Lesson[] = [];
