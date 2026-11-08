@@ -1,7 +1,7 @@
 # Android build notes
 
-Status: **v3.3.0 debug APK** — `dist/HanziPeak-3.3.0-tv-debug.apk` (~4.5 MB, phone + Android TV), package
-`com.hanziquest.app`, versionCode 37, minSdk 23, targetSdk 35. Display name: **HanziPeak**.
+Status: **v3.3.1 debug APK** — `dist/HanziPeak-3.3.1-tv-debug.apk` (~4.5 MB, phone + Android TV), package
+`com.hanziquest.app`, versionCode 38, minSdk 23, targetSdk 35. Display name: **HanziPeak**.
 HSK 1 (30 lessons) + HSK 2 (75 lessons / 746 words) with unique art for every lesson,
 panda gestures, conversation scoring, tone/clarity scoring, stroke practice, local account.
 

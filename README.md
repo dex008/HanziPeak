@@ -3,14 +3,14 @@
 A free, fast, bilingual (English / Indonesian) **Android app** for learning Mandarin — HSK 3.0
 aligned, spaced-repetition driven, and built to feel like a game.
 
-> **Status: v3.3.0 — HSK 2 complete, now with Android TV support.**
+> **Status: v3.3.1 — HSK 2 complete, Android TV layout tuned for 1080p.**
 > HSK 1: 30 illustrated lessons · HSK 2: 75 lessons / 746 words · panda gestures · conversation scoring · offline.
 > **Package:** `com.hanziquest.app` *(kept unchanged so every build updates in place).*
 
 ## Try it on your phone
 
-**APK:** [`dist/HanziPeak-3.3.0-tv-debug.apk`](dist/HanziPeak-3.3.0-tv-debug.apk) — 4.5 MB
-**SHA-256:** `ED443EBC0D4A5E69ADD0E00FE2E14F3651598471CF6D1223C0CF6335A8CD4D6F`
+**APK:** [`dist/HanziPeak-3.3.1-tv-debug.apk`](dist/HanziPeak-3.3.1-tv-debug.apk) — 4.5 MB
+**SHA-256:** `C47A11A915313A65A2CAC664B58075763C8E298C71E19988CC490C57D4995DBF`
 
 ```powershell
 & 'C:\Android\Sdk\platform-tools\adb.exe' install -r dist\HanziPeak-3.2.0-debug.apk
