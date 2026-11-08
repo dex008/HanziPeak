@@ -3,14 +3,14 @@
 A free, fast, bilingual (English / Indonesian) **Android app** for learning Mandarin — HSK 3.0
 aligned, spaced-repetition driven, and built to feel like a game.
 
-> **Status: v3.2.0 — HSK 2 complete with unique art for all 75 lessons.**
+> **Status: v3.2.1 — HSK 2 complete with unique art for all 75 lessons.**
 > HSK 1: 30 illustrated lessons · HSK 2: 75 lessons / 746 words · panda gestures · conversation scoring · offline.
 > **Package:** `com.hanziquest.app` *(kept unchanged so every build updates in place).*
 
 ## Try it on your phone
 
-**APK:** [`dist/HanziPeak-3.2.0-debug.apk`](dist/HanziPeak-3.2.0-debug.apk) — 4.5 MB
-**SHA-256:** `902714484976D3B756FFF41DBF0042B5426D4C0BBA791BD7FC30FDF306E85B6F`
+**APK:** [`dist/HanziPeak-3.2.1-debug.apk`](dist/HanziPeak-3.2.1-debug.apk) — 4.5 MB
+**SHA-256:** `1D181F1975C9065EE5F6AEFED1E9ACE4DA64B9270B9A20BB7E8A9B49B8BDE0F8`
 
 ```powershell
 & 'C:\Android\Sdk\platform-tools\adb.exe' install -r dist\HanziPeak-3.2.0-debug.apk
@@ -33,7 +33,7 @@ crowds, weather, SMS, next week…), each with its own correct label.
 |---|---|---|---|
 | HSK 1 | 300 | 30 | done |
 | HSK 2 (now) | 450 | 45 | done |
-| Full HSK 3.0 level-2 list | 755 | ~75 | ~305 words / 30 lessons left |
+
 
 - Lessons 31–45 add 150 more words (parks, riding, renting, lakes, novels, taxis, guests,
   authors, captains, principals, scientists, computers, supermarkets, hospitals…).
@@ -125,8 +125,8 @@ Quick web/DNS check: no existing product found, `hanzipeak.com` / `.app` unregis
 
 | Piece | Status |
 |---|---|
-| Vocabulary | **300 words** (HSK 3.0 L1, trimmed to the 2025 syllabus size) |
-| Course | **30 lessons × 10 words**, 6 units, sequential unlock |
+| Vocabulary | **HSK 1: 300 words · HSK 2: 746 words** (HSK 3.0 lists) |
+| Course | **HSK 1: 30 lessons · HSK 2: 75 lessons**, 10 words each, sequential unlock |
 | Lesson flow | 10 teach cards → 15-question quiz (recognition / production / listening) |
 | Spaced repetition | **FSRS** (`ts-fsrs`) — review tab, due badges, per-skill cards |
 | Review timing | Recognition due immediately after a lesson; production next day |
@@ -231,7 +231,7 @@ particles (就, 着, 地, 起来). All art is inline SVG, no external assets, ~1
 
 - **Native review of the content** — 100 core glosses are hand-written; ~200 tail glosses are
   machine-drafted and not yet checked by a native speaker.
-- **Native review of the content**, baked audio, accounts/sync, HSK 2–9.
+- **Baked audio**, cloud accounts/sync, and HSK 3–9.
 
 ## Repo map
 

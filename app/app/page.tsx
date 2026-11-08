@@ -1955,8 +1955,8 @@ export default function Home() {
             <h1>{t("welcomeTitle")}</h1>
             <p className="sub">{t("welcomeBody")}</p>
             <div className="chips">
-              <span className="chip">300 {t("words")}</span>
-              <span className="chip">HSK 1</span>
+              <span className="chip">{levelTotal} {t("words")}</span>
+              <span className="chip">HSK {level}</span>
               <span className="chip">offline</span>
             </div>
             <button type="button" className="btn block" onClick={() => startLesson(levelLessons[0])}>
