@@ -1,7 +1,7 @@
 # HanziPeak — Product & Technical Plan
 
 > **Name:** **HanziPeak** (display) · `com.hanziquest.app` *(package unchanged so builds update in place)* — 9 HSK levels = 9 peaks; quick web/DNS check clean, trademark search still pending
-> **Status:** v4.4 — HSK 2 complete with unique art (75 lessons / 746 words, v3.2.1 APK) · HSK 1 complete · panda gestures · conversation scoring · stroke practice · local account · free · EN/ID · offline
+> **Status:** v4.5 — Android TV support (v3.3.0 APK) · HSK 2 complete (75 lessons / 746 words) · HSK 1 complete · panda gestures · conversation scoring · stroke practice · local account · free · EN/ID · offline
 > **Goal of this document:** agree on *what* we are building, *for whom*, *in what order*, and *on what stack* before writing production code.
 
 ---

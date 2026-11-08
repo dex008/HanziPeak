@@ -613,6 +613,38 @@ export default function Home() {
     }
   }, [qaBusy, qaIdx, t]);
 
+  useEffect(() => {
+    const focusable = () =>
+      Array.from(
+        document.querySelectorAll<HTMLElement>(
+          'button:not([disabled]), a[href], input:not([disabled]), [tabindex]:not([tabindex="-1"])',
+        ),
+      ).filter((el) => el.getClientRects().length > 0);
+
+    const move = (dir: string) => {
+      const list = focusable();
+      if (!list.length) return;
+      const active = document.activeElement as HTMLElement | null;
+      const idx = active ? list.indexOf(active) : -1;
+      const step = dir === "UP" || dir === "LEFT" ? -1 : 1;
+      const next = idx < 0 ? 0 : (idx + step + list.length) % list.length;
+      list[next].focus();
+      list[next].scrollIntoView({ block: "center", behavior: "smooth" });
+    };
+
+    (window as unknown as { __hzKey?: (code: string) => void }).__hzKey = (code: string) => {
+      if (code === "ENTER") {
+        (document.activeElement as HTMLElement | null)?.click();
+        return;
+      }
+      move(code);
+    };
+
+    return () => {
+      delete (window as unknown as { __hzKey?: (code: string) => void }).__hzKey;
+    };
+  }, []);
+
   const startToneCheck = useCallback(async () => {
     if (toneBusy) return;
     setToneBusy(true);

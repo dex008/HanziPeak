@@ -3,14 +3,14 @@
 A free, fast, bilingual (English / Indonesian) **Android app** for learning Mandarin — HSK 3.0
 aligned, spaced-repetition driven, and built to feel like a game.
 
-> **Status: v3.2.1 — HSK 2 complete with unique art for all 75 lessons.**
+> **Status: v3.3.0 — HSK 2 complete, now with Android TV support.**
 > HSK 1: 30 illustrated lessons · HSK 2: 75 lessons / 746 words · panda gestures · conversation scoring · offline.
 > **Package:** `com.hanziquest.app` *(kept unchanged so every build updates in place).*
 
 ## Try it on your phone
 
-**APK:** [`dist/HanziPeak-3.2.1-debug.apk`](dist/HanziPeak-3.2.1-debug.apk) — 4.5 MB
-**SHA-256:** `1D181F1975C9065EE5F6AEFED1E9ACE4DA64B9270B9A20BB7E8A9B49B8BDE0F8`
+**APK:** [`dist/HanziPeak-3.3.0-tv-debug.apk`](dist/HanziPeak-3.3.0-tv-debug.apk) — 4.5 MB
+**SHA-256:** `ED443EBC0D4A5E69ADD0E00FE2E14F3651598471CF6D1223C0CF6335A8CD4D6F`
 
 ```powershell
 & 'C:\Android\Sdk\platform-tools\adb.exe' install -r dist\HanziPeak-3.2.0-debug.apk
@@ -94,6 +94,8 @@ idle, happy, sad and cheer every 1.4 s.
 On the Report screen, if you have finished at least one lesson and have not exported a backup in
 7 days, a **Back up your progress** card appears. *Back up now* downloads the JSON and starts the
 7-day clock; *Later* hides it for the session.
+
+## Android TV / set-top box`n`nThe same APK now runs on phones **and** Android TV (tested against Android 10+ manifest rules):`n`n- declares `LEANBACK_LAUNCHER` with a 320x180 banner, and marks touchscreen/leanback as not required;`n- D-pad keys are forwarded from native Android to the web UI: arrows move focus, OK/Enter activates;`n- focus ring is enlarged for 10-foot viewing.`n`nSideload with ADB over the network:`n`n```powershell`n& 'C:\Android\Sdk\platform-tools\adb.exe' connect <TV-IP>:5555`n& 'C:\Android\Sdk\platform-tools\adb.exe' install -r dist\HanziPeak-3.3.0-tv-debug.apk`n```
 
 ## Local account
 
